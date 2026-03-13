@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTC Cinema - Header</title>
+    <meta name="description" content="Shared header for UTC Cinema pages" />
+
+    <!-- External Libraries -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Site Styles -->
+    <!-- use relative path so file:// viewing works -->
+    <link rel="stylesheet" href="head.css" />
+    <link rel="stylesheet" href="frontend/main/main.css" />
+  </head>
+  <body>
+    <header class="site-header lotte-style">
+      <div class="account-bar header-right">
+        <a href="/dangKi-dangNhap/dang_nhap.html">Đăng nhập</a>
+        <span>|</span>
+        <a href="/dangKi-dangNhap/dang_ki.html">Đăng ký</a>
+      </div>
+
+      <div class="lotte-logo-bar">
+        <a class="lotte-logo" href="/menu.html">
+          <img
+            src="/frontend/Picture/utc-removebg-preview.png"
+            alt="UTC logo"
+          />
+          <span>UTC CINEMA</span>
+        </a>
+      </div>
+
+      <nav class="lotte-menu-bar">
+        <!-- Header dùng chung cho nhiều trang nên không set active cố định -->
+        <a href="/schedule.html">PHIM</a>
+        <span class="divider">|</span>
+        <a href="/gia_ve/giave.html">MUA VÉ</a>
+        <span class="divider">|</span>
+        <a href="/menu.html">RẠP CHIẾU PHIM</a>
+        <span class="divider">|</span>
+        <a href="/khuyen_mai/khuyen_mai_page.html">TIN MỚI & ƯU ĐÃI</a>
+        <span class="divider">|</span>
+        <a href="/lienHe/lien_he.html">LIÊN HỆ</a>
+      </nav>
+    </header>
+
+    <!-- Scripts -->
+    <!-- relative script path -->
+    <script src="head.js" defer></script>
+  </body>
+</html>
